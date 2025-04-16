@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.coordinate-display {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.coordinate-display p {
+  margin: 0;
+  padding: 8px 15px;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.coordinate-canvas {
+  border: 2px solid #333;
+  border-radius: 8px;
+  cursor: crosshair;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  touch-action: none; /* Prevents scrolling on touch devices */
+}
+
+.instructions {
+  max-width: 400px;
+  margin-top: 10px;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.instructions p {
+  margin: 5px 0;
+}
